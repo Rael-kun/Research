@@ -1,0 +1,25 @@
+1) Onegen, both retrival and generation in one step
+https://www.marktechpost.com/2024/09/14/onegen-an-ai-framework-that-enables-a-single-llm-to-handle-both-retrieval-and-generation-simultaneously/
+Summary- The paper talks about a new AI model called Onegen, which does retrieval and generation in one step. This
+technique is done by having special retrieval tokens, so that the model does not have to look back as far at the 
+history to make predictions on the future words. For example, if you ask the model "Who is the richest person?",
+it would output "Elon Musk is the richest person. He owns SpaceX and Tesla." Elon Musk would have a special 
+retrieval token as the subject of the sentence, so if you then asked, "Why is he rich?" the model would only have
+to look at the most recent subject token to figure out "he" is referring to Elon Musk.
+
+2) Odyssey, used to do tasks in minecraft
+https://marktechpost.com/2024/07/29/odyssey-a-new-open-source-ai-framework-that-empowers-large-language-model-llm-based-agents-with-open-world-skills-to-explore-the-vast-minecraft-world/
+Summary- This is more of a fun topic, but it does have some interesting applications for general AI (AGI). The
+Odyssey uses a three-step plan to play minecraft; planning, acting, and then evaluating. For the first step, Odyssey
+applies a LLM to make a plan, and then breaks that down into managable subgoals. During the second step, the actor
+does each subgoal, by using a variety of skills and techniques gathered from the defined library. In the final step,
+Odyssey evaluates the result, suggesting various improvements on execution and strategies (this can include adding
+strategies to the library).
+Notes: This is just a speculation I had during the reading, but could it be possible to give every major action or
+task in the game a high score for completion? The AI model would then choose to do the task with the highest score,
+but as it is being done the score could lower. This would force the model to try everything, but evaluate the 
+importance of certain tasks. For example, you could define finding iron as a given reward of +100, and options of
+"Jump" "Explore" "Mine" would all have a score of 1. The model would recieve a miniscule reward for doing "Jump", 
+and after a while the "Jump" score would go down. Then the model could "Explore" and "Mine" before the "Jump" score
+went up. If, for example, you mined an iron, these most recent actions would get boosted scores, with the return 
+falling off as you got to less recent actions.
