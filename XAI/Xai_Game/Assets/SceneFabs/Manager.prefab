@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2723581209186899680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7386176229323213440}
+  - component: {fileID: 6404948770230918034}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7386176229323213440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2723581209186899680}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6404948770230918034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2723581209186899680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1851cbe71905fbe459b3d4b2b444969a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  populationSize: 50
+  layers: 0400000004000000040000000300000001000000040000000200000006000000
+  playList: []
+  playNetPrefab: {fileID: 0}
+  timeForGeneration: 35
+  renderers:
+  - {fileID: 8400000, guid: eb78a6fb8346797439dc2654b8d818dd, type: 2}
+  - {fileID: 8400000, guid: 99b21ea89bd513743ad0fe47b1b2f614, type: 2}
+  - {fileID: 8400000, guid: e979081ffc3dc844bb99f617ab5fa504, type: 2}
+  - {fileID: 8400000, guid: 9ef74bf67c9342d4d81877bcc40c7bcf, type: 2}
+  - {fileID: 8400000, guid: 504329fb89a541e468279630022b082c, type: 2}
+  - {fileID: 8400000, guid: ebccc48464cc0594d9fe7cd63d023e77, type: 2}
+  - {fileID: 8400000, guid: 416741c693a68a74daf40ebbf4706bf5, type: 2}
+  - {fileID: 8400000, guid: 28fc528b08598fc4ab23f2cd78eef339, type: 2}
+  - {fileID: 8400000, guid: 86d4cd54352d63243b23a125283814cd, type: 2}
+  cameras: []
+  specialCanvas: {fileID: 0}
